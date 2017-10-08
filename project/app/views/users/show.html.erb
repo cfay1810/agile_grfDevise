@@ -1,0 +1,19 @@
+<h1><%= @current_user.username%></h1><br />
+<h4><%= full_name %></h4>
+<br />
+<%= link_to "Edit Profile", edit_user_registration_path %>
+<br>
+<div>
+            <p>
+              Age: <%= @current_user.age%>
+              <br>
+              City:<%= @current_user.city%>
+              <br>
+              State:<%= @current_user.state%>
+              <br>
+              Zip:<%= @current_user.zip %>
+              <br />
+
+            </p>
+        </div>
+</div>
